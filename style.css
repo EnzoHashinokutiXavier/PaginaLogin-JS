@@ -1,5 +1,5 @@
 body {
-	background: #014c57;
+	background: linear-gradient(140deg, rgb(95, 212, 12), rgb(150, 3, 150));
 }
 .wrapper {
 	width: 400px;
@@ -7,10 +7,11 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background: #2d20ba;
+	background: #180f7d;
 	padding: 50px;
-	color: #ffffff;
+	color: #ffffffd8;
 	text-align: center;
+	border: black 10px solid;
 }
 .wrapper h2 {
 	text-transform: uppercase;
@@ -26,7 +27,7 @@ input[type="text"] {
 	font-size: 24px;
 }
 button {
-	background: #00e5ff;
+	background: #0a04b2;
 	border: none;
 	color: #ffffff;
 	display: inline-block;
@@ -36,6 +37,7 @@ button {
 	font-family: poppins;
 	letter-spacing: 2px;
 	font-weight: bold;
+	border: black 5px solid;
 }
 input[type="radio"] {
 	width: 20px;
